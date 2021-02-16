@@ -188,7 +188,8 @@ public class Puppet : MonoBehaviour
         if (rightHand.GetFingerIsPinching(OVRHand.HandFinger.Middle) && scale > 0.5f){
             scale -= 0.01f;
         }
-        if (leftHand.GetFingerIsPinching(OVRHand.HandFinger.Middle)){
+        // Center view
+        if (leftHand.GetFingerIsPinching(OVRHand.HandFinger.Middle) && puppeteerViewPoint){
             cameraRig.transform.position = puppeteerViewPoint.transform.position;
             cameraRig.transform.rotation = puppeteerViewPoint.transform.rotation;
         }
