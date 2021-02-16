@@ -1,7 +1,7 @@
 # VR-puppet-parkour
 IGD301 - Human-Computer Interaction for Mixed Reality project
 
-This project consisted in designing, implementing and evaluating a locomotion technique. You
+This project consisted in designing, implementing and evaluating a VR locomotion technique. You
 can find code explanation and some demo video here :
 
 https://ebnnl.github.io/posts/puppet-locomotion/
