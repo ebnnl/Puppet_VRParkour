@@ -1,22 +1,13 @@
-# VR-locomotion-parkour
-## Update
-1. `LocomotionTechinque.cs` Line 41:
-```
-startPos = (OVRInput.GetLocalControllerPosition(leftController) + OVRInput.GetLocalControllerPosition(rightController)) / 2;
-```
+# VR-puppet-parkour
+IGD301 - Human-Computer Interaction for Mixed Reality project
+This project consisted of designing, implementing and evaluating a locomotion technique. You
+can find code explanation and some demo video here :
 
-## Demo Video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=5s-vTwTFc7U
-" target="_blank"><img src="http://img.youtube.com/vi/5s-vTwTFc7U/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+https://ebnnl.github.io/posts/puppet-locomotion/
 
-## How to Start
-```
-git clone https://github.com/wenjietseng/VR-locomotion-parkour.git
-```
-- download the GitHub repo and open __VRParkour__ folder as a Unity project
-- implement your locomotion technique in `LocomotionTechnique.cs`
-- play and see how fast and how many coins you can get!
+## Parkour
+The parkour is from :
+https://github.com/wenjietseng/VR-locomotion-parkour
 
 ## Used Assets and Packages
 ### core
